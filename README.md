@@ -3,11 +3,11 @@
 
 <img align="right" src="https://github.com/n00b69/woa-enchilada/blob/main/enchilada.png" width="350" alt="Windows 11 running on enchilada">
 
-# Running Windows on the DEVICENAME
-[![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMIX2S)
+# Running Windows on the Samsung Galaxy S9 SM-G9600
+[Discord](https://discord.gg/eXrYQdvVq8)
 
 ## Choose your language
-**English** | [`Pусский`](/guide/Russian/README-ru.md) | [`Polski`](/guide/Polski/README-pl.md)
+**English**
 
 ## ⚠️ Warning
 We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead pmics, dead ram, dead sim cards, dead display ics, dead cpus, any xiaomi shenanigans, exploding batteries, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
@@ -20,13 +20,12 @@ This project is in an early stage, all the files here have been contributed by o
 ## Get started
 - [Project status](guide/status.md)
 
-- [Installation instructions](guide/1-partition.md) W.I.P DO NOT USE
+- [Installation instructions](guide/1-partition.md)
 
 - [Troubleshooting](guide/troubleshooting.md)
 
 
 ## Miscellaneous
-- [Dualboot setup](guide/dualboot.md)
 
 - [Additional materials](guide/materials.md)
 
@@ -34,7 +33,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Reinstall instructions](guide/reinstall.md) W.I.P DO NOT USE
 
-- [Uninstall instructions](guide/uninstall.md) W.I.P DO NOT USE
 
 
 ## Contributors
@@ -59,6 +57,7 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
 [<img alt="TrustedFloppa" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/85476585?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TrustedFloppa)
 [<img alt="Misha803" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118528504?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Misha803)
+[<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/12375593?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Ost268)
 
 
 
