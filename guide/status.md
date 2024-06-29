@@ -1,31 +1,31 @@
 <img align="right" src="https://github.com/n00b69/woa-enchilada/blob/main/enchilada.png" width="350" alt="Windows 11 running on enchilada">
 
-# Running Windows on the DEVICENAME
+# Running Windows on the Samsung Galaxy S9 SM-G9600
 
 ## Project Status
 
-The project is in development. Expect some updates in the future.
+The project is in development (Alpha). Expect some updates in the future.
 
 #### Features
 
-- [X] Audio 
-- [X] Battery status
-- [x] Bluetooth
-- [x] Brightness 
+- [ ] Audio 
+- [ ] Battery status
+- [ ] Bluetooth
+- [ ] Brightness 
 - [ ] Camera
-- [x] Cellular
-- [x] Charging ```VERY slow```
+- [ ] Cellular
+- [ ] Charging
 - [x] Display
-- [x] GPU  ```No x64 acceleration```
-- [x] Touchscreen 
+- [ ] GPU
+- [ ] Touchscreen 
 - [x] UFS
 - [x] USB
-- [x] Wi-Fi
+- [ ] Wi-Fi
 
 #### Sensors
 - [ ] Accelerometer
 - [ ] Fingerprint
-- [x] GPS
+- [ ] GPS
 - [ ] Gyroscope
 - [ ] Light sensor
 - [ ] Magnetometer
