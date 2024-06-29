@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/n00b69/woa-enchilada/blob/main/enchilada.png" width="350" alt="Windows 11 running on enchilada">
 
-# Running Windows on the DEVICENAME
+# Running Windows on the Samsung Galaxy S9 SM-G9600
 
 ## Partitioning your device
 
@@ -9,14 +9,14 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [TWRP]() FILE NEEDED
+- [Modded TWRP](https://github.com/vicenteicc2008/woa-starqlte/releases/download/1.0-rc1/twrp-s9.img)
 
-- [Parted]() FILE NEEDED
+- [Parted](https://github.com/n00b69/woa-beryllium/releases/download/Files/parted)
 
 ### Notes
 > [!WARNING]  
 > 
-> DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Telegram chat](https://t.me/WinOnF1).
+> DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Discord server](https://discord.gg/eXrYQdvVq8).
 > 
 > Do not run all commands at once, execute them in order!
 >
@@ -47,7 +47,7 @@ cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-
 ```
 
 ### Partitioning guide
-> Your DEVICENAME may have different storage sizes. This guide uses the values of the 128GB model as an example. When relevant, the guide will mention if other values can or should be used.
+> Your Samsung Galaxy S9 SM-G9600 may have different storage sizes. This guide uses the values of the 128GB model as an example. When relevant, the guide will mention if other values can or should be used.
 
 #### Unmount data
 - Go to "Mount" in TWRP and unmount data, if it is mounted
@@ -65,25 +65,17 @@ print
 ```
 
 #### Removing userdata
-> Replace **$** with the number of the **userdata** partition, which should be **21**
+> Replace **$** with the number of the **userdata** partition, which should be **29**
 ```cmd
 rm $
 ```
 
-#### Recreating userdata
+#### Creating ESP partition
 > Replace **1611MB** with the former start value of **userdata** which we just deleted
 >
 > Replace **32GB** with the end value you want **userdata** to have
 ```cmd
-mkpart userdata ext4 1611MB 32GB
-```
-
-#### Creating ESP partition
-> Replace **32GB** with the end value of **userdata**
->
-> Replace **32.3GB** with the value you used before, adding **0.3GB** to it
-```cmd
-mkpart esp fat32 32GB 32.3GB
+mkpart esp fat32 1611MB 1911MB
 ```
 
 #### Creating Windows partition
@@ -95,7 +87,7 @@ mkpart win ntfs 32.3GB 123GB
 ```
 
 #### Making ESP bootable
-> Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be 23
+> Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be 29
 ```cmd
 set $ esp on
 ```
@@ -104,14 +96,6 @@ set $ esp on
 ```cmd
 quit
 ```
-
-#### Formatting data
-- Format all data in TWRP, or Android will not boot.
-- ( Go to Wipe > Format data > type yes )
-
-#### Check if Android still starts
-- Just restart the phone, and see if Android still works
-
 
 ## [Next step: Installing Windows](/guide/2-install.md)
 
