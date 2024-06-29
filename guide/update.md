@@ -1,25 +1,22 @@
 <img align="right" src="https://github.com/n00b69/woa-enchilada/blob/main/enchilada.png" width="350" alt="Windows 11 running on enchilada">
 
-# Running Windows on the DEVICENAME
+# Running Windows on the Samsung Galaxy S9 SM-G9600
 
 ## Updating drivers
 
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [UEFI image]() FILE NEEDED
+- [UEFI image](https://github.com/vicenteicc2008/woa-starqlte/releases/download/1.0-uefi/boot-starqlte.img)
   
-- [Drivers]() FILE NEEDED
+- [Drivers](https://github.com/vicenteicc2008/woa-starqlte/releases/download/1.0-rc1-drivers/S9-Initial-Drivers.zip)
   
-- [Msc script]() FILE NEEDED
+- [Msc script](https://github.com/vicenteicc2008/woa-starqlte/releases/download/1.0-rc1-msc/msc-s9.sh)
   
-- [TWRP]() FILE NEEDED (should already be installed)
+- [TWRP](https://github.com/vicenteicc2008/woa-starqlte/releases/download/1.0-rc1/twrp-s9.img) (should already be installed)
 
 #### Boot to TWRP
-> If COMPANY has replaced your recovery back to stock, flash it again in fastboot with:
-```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery
-```
+> press Vol+ Key, Bixby Key and Power at the same time
 
 #### Running the msc script
 > Put msc.sh in the platform-tools folder, then run:
@@ -83,7 +80,7 @@ exit
 ```
 
 ##### Boot back into Windows
-> Reboot your device to boot back into Windows. If this boots you to Android, reflash the UEFI image through fastboot or by using the WOA Helper app
+> Reboot your device to boot back into Windows.
 
 
 ## Finished!
