@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/n00b69/woa-enchilada/blob/main/enchilada.png" width="350" alt="Windows 11 running on enchilada">
 
-# Running Windows on the DEVICENAME
+# Running Windows on the Samsung Galaxy S9 SM-G9600
 
 ## Additional materials
 > Below you will find a list of tweaks and materials for Windows on your ARM device
