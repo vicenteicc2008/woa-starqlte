@@ -1,23 +1,20 @@
 <img align="right" src="https://github.com/n00b69/woa-enchilada/blob/main/enchilada.png" width="350" alt="Windows 11 running on enchilada">
 
-# Running Windows on the DEVICENAME
+# Running Windows on the Samsung Galaxy S9 (SM-G9600)
 
 ## Installing Windows
 
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
   
-- [Drivers]() FILE NEEDED
+- [Drivers](https://github.com/vicenteicc2008/woa-starqlte/releases/download/1.0-rc1-drivers/S9-Initial-Drivers.zip)
   
-- [Msc script]() FILE NEEDED
+- [Msc script](https://github.com/vicenteicc2008/woa-starqlte/releases/download/1.0-rc1-msc/msc-s9.sh)
   
-- [TWRP]() FILE NEEDED (should already be installed)
+- [TWRP](https://github.com/vicenteicc2008/woa-starqlte/releases/download/1.0-rc1/twrp-s9.img) (should already be installed)
 
 #### Boot to TWRP
-> If rebooting on the last page has replaced your recovery back to stock, flash it again in fastboot with:
-```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery
-```
+> Disable MTP in TWRP
 
 #### Running the msc script
 > Put msc.sh in the platform-tools folder, then run:
@@ -25,9 +22,18 @@ fastboot flash recovery path\to\twrp.img reboot recovery
 adb push msc.sh / && adb shell sh msc.sh
 ```
 
+### Correct disk mapping in Windows disk manager 
+https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
+https://mega.nz/file/K5UkQLrC#vCwlitpuZmEELGl33BxMMmv_NbGhJhaDWVoICm6sSAs
+
+Here is instruction: use msc.sh then on PC in disk manager right click
+on disk and click online(it will wipe primary gpt table in lun0). now in
+recovery use "gdisk /dev/block/sda" (\\.\physicaldrive# where # your drive number in windows disk manager) and these commands "r, c, y, w
+and y" it will restore gpt table, after reconnecting phone to pc it will show that disk is active.
+
 ### Diskpart
 > [!WARNING]
-> DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS CAN ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will likely cost money)
+> DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS CAN ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Samsung or flashing it with EDL, both of which will likely cost money)
 
 ```cmd
 diskpart
@@ -52,14 +58,14 @@ lis par
 ```
 
 #### Selecting the Windows partition
-> Replace $ with the partition number of Windows (should be 22)
+> Replace $ with the partition number of Windows (should be 30)
 ```cmd
 sel par $
 ```
 
 #### Formatting Windows drive
 ```cmd
-format quick fs=ntfs label="WIN"
+format quick fs=ntfs label="WINS9"
 ```
 
 #### Add letter to Windows
@@ -68,7 +74,7 @@ assign letter x
 ```
 
 #### Selecting the ESP partition
-> Replace $ with the partition number of ESP (should be 23)
+> Replace $ with the partition number of ESP (should be 29)
 ```cmd
 sel par $
 ```
@@ -159,10 +165,11 @@ remove letter y
 exit
 ```
 
-### Reboot to Android
-> To set up dualboot
+#### Remove autocheck and WinRE
+follow this [remove WinRE](https://github.com/Project-Silicium/WoA-Guides/blob/main/Mu-Qcom/Vendors/Samsung/remove-win-recovery-disk-checking.md)
 
-## [Last step: Setting up dualboot](/guide/dualboot.md)
+### Reboot to Windows 11
+> To set up your account in Windows 11
 
 
 
