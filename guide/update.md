@@ -36,7 +36,7 @@ list volume
 ```
 
 #### Select Windows volume
-> Replace $ with the actual number of **WIN**
+> Replace $ with the actual number of **WINS9**
 ```cmd
 select volume $
 ```
