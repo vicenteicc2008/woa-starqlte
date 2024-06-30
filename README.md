@@ -1,5 +1,5 @@
 > [!warning]
-> Guide is under development and is missing files. **Do not use.**
+> This guide and its files are still in a very early stage of development. They may be unstable, and you may even brick your device. **PROCEED AT YOUR OWN RISK**
 
 <img align="right" src="https://github.com/n00b69/woa-enchilada/blob/main/enchilada.png" width="350" alt="Windows 11 running on enchilada">
 
