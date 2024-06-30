@@ -81,7 +81,7 @@ sel par $
 
 #### Formatting ESP drive
 ```cmd
-format quick fs=fat32 label="ESP"
+format quick fs=fat32 label="ESPS9"
 ```
 
 #### Add letter to ESP
