@@ -31,8 +31,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Update drivers](guide/update.md) W.I.P DO NOT USE
 
-- [Reinstall instructions](guide/reinstall.md) W.I.P DO NOT USE
-
 
 
 ## Contributors
