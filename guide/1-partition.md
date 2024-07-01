@@ -32,11 +32,7 @@
 cd path\to\platform-tools
 ```
 
-#### Flash TWRP recovery
-> Open a CMD window inside the platform-tools folder, then (while your phone is in fastboot mode) run
-```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery
-```
+#### Flash the modded TWRP with Odin
 
 #### Backing up important files
 > This will back up **fsc**, **fsg**, **modemst1** and **modemst2** to the current path your CMD is opened in (for example **C:\platform-tools**). Confirm these files are actually there before proceeding.
