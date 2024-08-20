@@ -132,21 +132,15 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
+#### Disabling boot status policy
+```cmd
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" bootstatuspolicy IgnoreAllFailures
+```
+
 ### Unassign disk letters
 > So that they don't stay there after disconnecting the device
 ```cmd
 diskpart
-```
-
-#### Select the Windows volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **WIN**
-```diskpart
-select volume $
-```
-
-#### Unassign the letter X
-```diskpart
-remove letter x
 ```
 
 #### Select the ESP volume of the phone
