@@ -19,7 +19,7 @@ The project is in development (Alpha). Expect some updates in the future.
 - [ ] GPU
 - [ ] Touchscreen 
 - [x] UFS
-- [x] USB
+- [x] USB ```Only with external power```
 - [ ] Wi-Fi
 
 #### Sensors
