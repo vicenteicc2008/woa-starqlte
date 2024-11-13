@@ -162,7 +162,7 @@ exit
 ```
 
 #### Remove autocheck and WinRE
-follow this [remove WinRE](https://github.com/Project-Silicium/WoA-Guides/blob/main/Mu-Qcom/Vendors/Samsung/remove-win-recovery-disk-checking.md)
+follow this to [remove WinRE](https://github.com/Project-Silicium/WoA-Guides/blob/main/Mu-Qcom/Vendors/Samsung/remove-win-recovery-disk-checking.md)
 
 ### Reboot to Windows 11
 > To set up your account in Windows 11
