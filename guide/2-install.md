@@ -146,7 +146,7 @@ diskpart
 ```
 
 #### Select the ESP volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **ESP**
+> Use `list volume` to find it, replace "$" with the actual number of **ESPS9**
 ```diskpart
 select volume $
 ```
