@@ -33,7 +33,7 @@ The project is in development (Alpha). Expect some updates in the future.
 
 #### Security
 
-- [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
+- [ ] Security Processor
 - [ ] TPM (Software Backed)
 
 
