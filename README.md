@@ -1,7 +1,7 @@
 > [!warning]
 > This guide and its files are still in a very early stage of development. They may be unstable, and you may even brick your device. **PROCEED AT YOUR OWN RISK**
 
-<img align="right" src="https://github.com/vicenteicc2008/woa-starqlte/blob/main/s9-woa" width="350" alt="Windows 11 running on starqlte">
+<img align="right" src="https://github.com/vicenteicc2008/woa-starqlte/blob/main/s9-woa.png" width="350" alt="Windows 11 running on starqlte">
 
 # Running Windows on the Samsung Galaxy S9 SM-G9600
 [Discord](https://discord.gg/eXrYQdvVq8)
