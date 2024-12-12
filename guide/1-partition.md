@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/n00b69/woa-enchilada/blob/main/enchilada.png" width="350" alt="Windows 11 running on enchilada">
+<img align="right" src="https://github.com/vicenteicc2008/woa-starqlte/blob/main/s9-woa.png" width="350" alt="Windows 11 running on starqlte">
 
 # Running Windows on the Samsung Galaxy S9 SM-G9600
 
