@@ -108,6 +108,9 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 
 > If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:path\to\install.esd`, then replace `index:6` with the actual index number of **Windows 11 Pro** in your image
 
+#### Remove autocheck and WinRE
+follow this to [remove WinRE](https://github.com/Project-Silicium/WoA-Guides/blob/main/Mu-Qcom/Vendors/Samsung/remove-win-recovery-disk-checking.md)
+
 ### Installing Drivers
 > Extract the drivers folder from the archive, then run the following command, replacing `path\to\drivers` with the actual path of the drivers folder
 ```cmd
@@ -160,9 +163,6 @@ remove letter y
 ```diskpart
 exit
 ```
-
-#### Remove autocheck and WinRE
-follow this to [remove WinRE](https://github.com/Project-Silicium/WoA-Guides/blob/main/Mu-Qcom/Vendors/Samsung/remove-win-recovery-disk-checking.md)
 
 ### Reboot to Windows 11
 > To set up your account in Windows 11
