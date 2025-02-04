@@ -32,6 +32,9 @@ The project is in development (Alpha). Expect some updates in the future.
 - [ ] Magnetometer
 - [ ] Proximity
 
+#### Security
+- [ ] Security Processor
+
 
 
 
