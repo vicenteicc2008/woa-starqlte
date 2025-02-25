@@ -20,6 +20,7 @@ The project is in development (Alpha). Expect some updates in the future.
 - [ ] GPU
 - [ ] Touchscreen 
 - [x] UFS
+- [x] SD Card ```removing SD Card is not tested```
 - [x] USB ```Only with external power```
 - [ ] Wi-Fi
 
