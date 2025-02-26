@@ -108,8 +108,17 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 
 > If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:path\to\install.esd`, then replace `index:6` with the actual index number of **Windows 11 Pro** in your image
 
-#### Remove autocheck and WinRE
-follow this to [remove WinRE](https://github.com/Project-Silicium/WoA-Guides/blob/main/Mu-Qcom/Vendors/Samsung/remove-win-recovery-disk-checking.md)
+### Removing Windows recovery and autocheck
+> [!WARNING]
+>
+> If your phone enters Windows [recovery mode](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference?view=windows-11), it will damage your UFS and permanently brick the device!
+>
+> This issue only occurs on Samsung devices running Windows.
+- Navigate to `X:\Windows\System32\Recovery\` and delete **WinRE.wim**.
+- Navigate to `X:\Windows\System32`, find **autochk.exe**, and right click on it.
+- Click on `Properties` > `Security` > `Advanced` > `Owner change` > **(Enter your PC username)**.
+- Click `Add` > `Select a principal` > **(Enter your username)** > Check `"Full control"` under basic permissions.
+- Now delete **autochk.exe** in `X:\Windows\System32\`.
 
 ### Installing Drivers
 > Extract the drivers folder from the archive, then run the following command, replacing `path\to\drivers` with the actual path of the drivers folder
