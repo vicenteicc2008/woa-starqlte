@@ -17,7 +17,7 @@ The project is in development (Alpha). Expect some updates in the future.
 - [ ] Cellular
 - [ ] Charging
 - [x] Display
-- [ ] GPU
+- [x] GPU ```Video, Miracast are not tested```
 - [ ] Touchscreen 
 - [x] UFS
 - [x] SD Card ```removing SD Card is not tested```
