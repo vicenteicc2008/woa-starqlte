@@ -10,7 +10,7 @@ The project is in development (Alpha). Expect some updates in the future.
 
 - [ ] Audio 
 - [ ] Battery status ```S9 Uses custom PMIC (SM5720) so i need write fuelgauge Driver```
-- [x] Buttons ```Volume Buttons are not tested because I need Audio Working but Power works```
+- [x] Buttons 
 - [ ] Bluetooth
 - [ ] Brightness 
 - [ ] Camera
