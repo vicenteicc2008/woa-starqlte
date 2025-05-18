@@ -8,6 +8,8 @@
 - [Windows on ARM image](https://worproject.com/esd)
   
 - [Drivers](https://github.com/vicenteicc2008/woa-starqlte/releases/download/1.0-rc1-drivers/S9-Drivers.zip)
+
+- [UEFI Image](https://github.com/vicenteicc2008/woa-starqlte/releases/tag/1.0-uefi)
   
 - [Msc script](https://github.com/vicenteicc2008/woa-starqlte/releases/download/1.0-rc1-msc/msc-s9.sh)
 
@@ -172,6 +174,9 @@ remove letter y
 ```diskpart
 exit
 ```
+
+### Flashing UEFI
+Flash UEFI on the modified recovery
 
 ### Reboot to Windows 11
 > To set up your account in Windows 11
