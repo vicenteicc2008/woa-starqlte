@@ -22,7 +22,7 @@ The project is in development (Alpha). Expect some updates in the future.
 - [x] UFS
 - [x] SD Card ```removing SD Card is not tested```
 - [x] USB ```Only with external power```
-- [ ] Wi-Fi
+- [ ] Wi-Fi ```S9 uses Broadcom (bcm4361) for WLAN and Bluetooth```
 
 #### Sensors
 - [ ] Accelerometer
