@@ -9,7 +9,7 @@ The project is in development (Alpha). Expect some updates in the future.
 #### Features
 
 - [ ] Audio ```S9/S9+/Note9 uses MAX98512 amplifier and that depends on the i2c-gpio```
-- [ ] Battery status ```S9 Uses custom PMIC (MAX77705) so i need write fuelgauge Driver```
+- [ ] Battery status ```S9 Uses custom PMIC (MAX77705) so writing fuelgauge driver is needed```
 - [x] Buttons 
 - [ ] Bluetooth
 - [ ] Brightness 
