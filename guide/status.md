@@ -18,7 +18,7 @@ The project is in development (Alpha). Expect some updates in the future.
 - [ ] Charging
 - [x] Display
 - [x] GPU ```Watching video, Miracast are not tested```
-- [ ] Touchscreen 
+- [ ] Touchscreen ```needed to write touch driver```
 - [x] UFS
 - [x] SD Card ```removing SD Card is not tested```
 - [x] USB ```Only with external power```
